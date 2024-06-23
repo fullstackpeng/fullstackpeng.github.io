@@ -19,6 +19,10 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide' },
       {
+        text: '博客',
+        link: '/blog/',
+      },
+      {
         text: '后端',
         items: [
           { text: 'Java', link: '/java/' },
@@ -45,7 +49,6 @@ export default defineConfig({
       {
         text: '其他',
         items: [
-          { text: '博客同步', link: '/blog/' },
           { text: '一些想法', link: '/thinks/' },
           { text: '未来愿景', link: '/future/' }
         ]
